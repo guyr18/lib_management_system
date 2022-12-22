@@ -27,14 +27,17 @@ public final class BookFixtureTest extends TestCase
 		
 		// Test author functionality of Book object.
 		testBook.setAuthor("J.K. Rowling");
+		testBook.setAuthor(""); // Empty string should not be accepted.
 		assertTrue(testBook.getAuthor().equals("J.K. Rowling"));
 		
 		// Test title functionality of Book object.
 		testBook.setTitle("Harry Potter");
+		testBook.setTitle(""); // Empty string should not be accepted.
 		assertTrue(testBook.getTitle().equals("Harry Potter"));
 		
 		// Test genre functionality of Book object.
 		testBook.setGenre("Fantasy");
+		testBook.setGenre(""); // Empty string should not be accepted.
 		assertTrue(testBook.getGenre().equals("Fantasy"));
 		
 		
