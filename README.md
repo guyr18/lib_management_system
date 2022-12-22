@@ -1,6 +1,7 @@
 ## Library Management System
 
-**Library Management System** (LMS) is a utility application that is developed using **JDK8** and **Java Hibernate 5.6 JPA**.  
+**Library Management System** (LMS) is a utility application that is developed using **Java SE 17** and **Java Hibernate 5.6 JPA**. Additionally, it provides testing of persistence classes via
+**JUnit 3** testing framework.  
 
 **LMS** is intended to be used by a local libarian at a library with the idea of governing the activity of visitors.   
 For example, it utilizes a **MySQL8** database  to categorize books that are in the system and have been rented.  
