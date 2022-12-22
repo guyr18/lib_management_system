@@ -22,6 +22,7 @@ public final class BookFixtureTest extends TestCase
 		
 		// Test id functionality of Book object.
 		testBook.setId(5);
+		testBook.setId(-3);
 		assertTrue(testBook.getId() == 5);
 		
 		// Test author functionality of Book object.
